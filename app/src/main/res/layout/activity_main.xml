@@ -15,4 +15,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="242dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
